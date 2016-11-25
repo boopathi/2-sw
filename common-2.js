@@ -1,0 +1,1 @@
+document.write("Hello from common-2.js");
