@@ -117,7 +117,7 @@ Here we have `/` and `/page-1/`(this slash at the end is important to determine 
 
 From the experiment, we were able to see that `/page-1`'s service-worker was able to -
 
-1. Handle the requests to `/` which is outside the scope of `/page-1/`.
+1. Handle the requests to `/common.js` which is outside the scope of `/page-1/`.
 2. access from the cache `/common.js` which was cached by the other service-worker (at `/`)
 3. delete from the cache `/common-2.js` which was cached by the service-worker at `/` and change the behavior/assumption of `/`.
   + assumption of `/` - precached `common-2.js` - now it SHOULD be in the cache
