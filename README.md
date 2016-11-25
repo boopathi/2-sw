@@ -108,7 +108,7 @@ As you would expect, there is no `/common-2.js` in the cache and the service wor
 
 ### Longest match / More specific match wins
 
-When there are 2 service-workers for 2 URLs which have a Common Ancestor, then the longest match wins. A particular page can be controlled by ONLY ONE service worker.
+When there are 2 service-workers for 2 URLs which have a Common Ancestor, then the longest matching scope wins. A particular page can be controlled by ONLY ONE service worker.
 
 Here we have `/` and `/page-1/`(this slash at the end is important to determine the service worker scope - where `/page-1` will fall under the scope `/`).
 
