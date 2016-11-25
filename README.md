@@ -1,6 +1,6 @@
-# service-workers demo
+# 2-sw
 
-2 service workers one controlling `/` and another controlling `/page-1/`
+An experiment with 2 service workers, one controlling `/` and another controlling `/page-1/`.
 
 Any static web server. For example,
 
