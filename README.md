@@ -2,6 +2,8 @@
 
 An experiment with 2 service workers, one controlling `/` and another controlling `/page-1/`.
 
+Probably a longer version of this - https://twitter.com/jaffathecake/status/800960671890305026
+
 Any static web server. For example,
 
 ```sh
